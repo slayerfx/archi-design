@@ -1,0 +1,223 @@
+/* *****************************************************************
+TOOLS
+***************************************************************** */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/*******************************************************************************
+GENERALITES
+*******************************************************************************/
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1.8rem;
+  font-family: "Nunito";
+  color: #414141; /* #555555 */
+  background-color: #eee;
+}
+
+/*******************************************************************************
+HEADER
+*******************************************************************************/
+
+.header,
+footer {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00748d;
+  width: 100%;
+  padding: 1em;
+}
+
+.logo-container {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+}
+
+.tagline {
+  color: white;
+  font-family: "Fjalla One";
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2em;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+  font-family: "Fjalla One";
+}
+
+.nav-item.active {
+  background-color: white;
+  color: black;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/*******************************************************************************
+LAYOUT
+*******************************************************************************/
+
+/* Le container permet de limiter la largeur d'un contenu */
+.main-container {
+  max-width: 1200px; /* On donne une largeur au container */
+  margin: auto; /* On centre son contenu */
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+/*******************************************************************************
+INTRO SECTION
+*******************************************************************************/
+
+.intro-section {
+  padding: 6em;
+  background-image: url(../images/bg-header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Fjalla One";
+  font-size: 3rem;
+  color: white;
+  padding: 0.3em;
+}
+
+.intro-titre h1 {
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+  background-color: #cb8606;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Nunito";
+  font-size: 2rem;
+  color: #00748d;
+  padding: 0.5em;
+}
+
+.intro-titre2 h2 {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  background-color: white;
+}
+
+/*******************************************************************************
+NOS PRESTATIONS
+*******************************************************************************/
+
+h3 {
+  font-family: "Fjalla One";
+  font-size: 3rem;
+  color: #00748d;
+  margin: 2em;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Fjalla One";
+  color: #414141;
+  text-align: center;
+}
+
+h3::before {
+  content: "- ";
+  color: #cb8606;
+}
+
+h3::after {
+  content: " -";
+  color: #cb8606;
+}
+
+.container {
+  display: flex;
+  gap: 2.5em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-solid {
+  font-size: 4rem;
+  color: #cb8606;
+}
+
+button {
+  background-color: #00748d;
+  padding: 1em;
+  color: white;
+  font-size: 1.6rem;
+  border: none;
+  width: 100%;
+}
+
+/*******************************************************************************
+NOS PRESTATAIRES
+*******************************************************************************/
+
+.card-logo {
+  border: 3px solid #00748d;
+}
+
+.card-logo img {
+  width: 100%;
+}
+
+/*******************************************************************************
+FOOTER
+*******************************************************************************/
+
+.footer-links {
+  display: flex;
+  list-style: none;
+}
+
+.fa-brands {
+  color: white;
+  font-size: 3rem;
+}
+
+/*******************************************************************************
+ASIDE
+*******************************************************************************/
+
+aside {
+  text-align: center;
+  background: #414141;
+  padding: 1em;
+  color: white;
+  margin: auto;
+}
