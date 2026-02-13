@@ -1,6 +1,6 @@
 # Archi Design
 
-Page pour une agence d'architecture et de design d'intérieur. Fait pendant ma formation à la 3W Academy.
+Site d'agence d'architecture en CSS Grid.
 
 ## Technologies
 
